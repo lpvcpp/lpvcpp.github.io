@@ -1,5 +1,5 @@
 ---
-layout: A second post
+layout: post
 title: Second title
 ---
 
