@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Le Phong Vu.
+I'm a cpp developer.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+A place to write what I lean.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[lephongvu90@gmail.com](mailto:lephongvu90@gmail.com)
