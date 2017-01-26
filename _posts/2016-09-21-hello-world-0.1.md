@@ -4,15 +4,25 @@ author: lvpcpp
 description: ""
 ---
 
-something...
 
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+## A section
+
+Here is some cpp code.
+
+<pre>
+  <code class="cpp">
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main()
+    {
+      std::cout << "Hello Github Page" << std::endl;
+      return 0;
+    }
+
+  </code>
+</pre>
+
