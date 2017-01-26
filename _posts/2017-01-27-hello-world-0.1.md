@@ -1,9 +1,7 @@
 ---
-title: "Hello Github Page 1.0"
+title: "Hello Github Page"
 author: lvpcpp
 description: "First post"
-name: XXXXX
-
 ---
 
 
