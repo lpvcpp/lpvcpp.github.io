@@ -8,6 +8,20 @@ description: ""
 
 ## A section
 
+
+{% highlight cpp %}
+#include <iostream>
+
+// Hello World
+int main()
+{
+    cout << "hello world" << endl;
+    int a = 10;
+}
+{% endhighlight %}
+
+
+
 Here is some cpp code.
 
 <pre>
