@@ -4,17 +4,6 @@ author: lvpcpp
 description: ""
 ---
 
-{% prism cpp %}
-#include <iostream>
-
-// Hello World
-int main()
-{
-    cout << "hello world" << endl;
-    int a = 10;
-}
-{% endprism %}
-
 
 
 {% highlight cpp %}
