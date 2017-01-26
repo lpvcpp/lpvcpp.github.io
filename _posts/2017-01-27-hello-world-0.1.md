@@ -21,12 +21,7 @@ int main()
 {% endhighlight %}
 
 
-~~~~~~~~
-Here comes some other code.
-~~~~~~~~
-
-
-##Ruby code
+## Ruby code
 
 ~~~ ruby
 def what?
@@ -37,6 +32,38 @@ end
 
 ## CPP code again 
 ~~~ cpp
+#include <vector>
+#include <algorithm>
+#include <numeric>
+#include <random>
+#include <unordered_map>
+
+int CountPair(std::vector<int> input, int target)
+{
+  auto count = 0;
+  std::unordered_map<int, int> table;
+
+  for (auto x : input)
+  {
+    table[x]++;
+  }
+
+  for (auto& pair : table)
+  {
+    auto value = pair.first;
+    if (value < target - value)
+    {
+      count += table[value] * table[target - value];
+    } 
+    else if (value == target - value)
+    {
+      count += table[value] * (table[value] - 1) / 2;
+    }
+  }
+
+  return count;
+}
+
 int main()
 {
   std::vector<int> input(1000000);
@@ -51,4 +78,4 @@ int main()
 }
 ~~~
 
-## Over
+## The END!
