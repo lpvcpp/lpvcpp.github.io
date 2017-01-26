@@ -13,7 +13,7 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 20
 baseurl: /
-domain_name: 'https://lpvcpp.github.io
+domain_name: 'https://lpvcpp.github.io'
 google_analytics: 'UA-84558526-1'
 disqus: true 
 disqus_shortname: 'lpvcpp'
