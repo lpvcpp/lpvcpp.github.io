@@ -3,9 +3,6 @@ title: "Hello world 0.1"
 author: lvpcpp
 description: ""
 
-layout: default
-comments: true
-# other options
 
 ---
 
