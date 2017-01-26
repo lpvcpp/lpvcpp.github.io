@@ -6,13 +6,13 @@ description: ""
 
 
 
-{% highlight cpp %}
-#include <iostream>
+## A section
 
-// Hello World
-int main()
-{
-    cout << "hello world" << endl;
-    int a = 10;
-}
-{% endhighlight %}
+Here is some cpp code.
+
+<pre>
+  <code class="cpp">
+    std::cout <<" hellowrold";
+  </code>
+</pre>
+
