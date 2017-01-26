@@ -23,36 +23,12 @@ int main()
 {% endhighlight %}
 
 
-
-Here is some cpp code.
-
-<pre>
-  <code class="cpp">
-
-int main()
-{
-  std::vector<int> input(1000000);
-  std::iota(input.begin(), input.end(), 1);
-  std::shuffle(input.begin(), input.end(), std::mt19937{ std::random_device{}() });
-
-  auto s = 12345;
-
-  auto pairs = CountPair(input, s);
-
-  return 0;
-}
-
-  </code>
-</pre>
-
-
-
 ~~~~~~~~
 Here comes some other code.
 ~~~~~~~~
 
 
-## Some ruby code
+##Ruby code
 
 ~~~ ruby
 def what?
