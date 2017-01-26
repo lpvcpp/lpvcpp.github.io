@@ -2,6 +2,11 @@
 title: "Hello world 0.1"
 author: lvpcpp
 description: ""
+
+layout: default
+comments: true
+# other options
+
 ---
 
 
@@ -15,7 +20,7 @@ description: ""
 // Hello World
 int main()
 {
-    cout << "hello world" << endl;
+    std::cout << "Happy New Year" << std::endl;
     int a = 10;
 }
 {% endhighlight %}
