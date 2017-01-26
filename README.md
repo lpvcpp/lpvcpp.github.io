@@ -1,14 +1,9 @@
 ## Description
 
-lpvcpp description
+Description.
 
-## Theme dùng gì mà đẹp quá ?
+## Theme
 
-Theme đang dùng là [Kactus](https://github.com/nickbalestra/kactus)
-
-
-## Web chạy bằng gì ?
-
-Web đang dùng gh-pages của Github, Cloudflare để tăng performance.
+[Kactus](https://github.com/nickbalestra/kactus)
 
 ## License MIT
