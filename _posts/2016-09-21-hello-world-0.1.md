@@ -13,10 +13,6 @@ Here is some cpp code.
 <pre>
   <code class="cpp">
 
-    #include <iostream>
-
-    using namespace std;
-
     int main()
     {
       std::cout << "Hello Github Page" << std::endl;
