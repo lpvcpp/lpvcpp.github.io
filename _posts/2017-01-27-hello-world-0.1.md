@@ -32,50 +32,22 @@ end
 
 ## CPP code again 
 ~~~ cpp
-#include <vector>
-#include <algorithm>
-#include <numeric>
-#include <random>
-#include <unordered_map>
+//
+//  main.cpp
+//  Test
+//
+//  Created by Le Phong Vu on 1/27/17.
+//  Copyright © 2017 Le Phong Vu. All rights reserved.
+//
 
-int CountPair(std::vector<int> input, int target)
-{
-  auto count = 0;
-  std::unordered_map<int, int> table;
+#include <iostream>
 
-  for (auto x : input)
-  {
-    table[x]++;
-  }
-
-  for (auto& pair : table)
-  {
-    auto value = pair.first;
-    if (value < target - value)
-    {
-      count += table[value] * table[target - value];
-    } 
-    else if (value == target - value)
-    {
-      count += table[value] * (table[value] - 1) / 2;
-    }
-  }
-
-  return count;
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    std::cout << "Hello, World!\n";
+    return 0;
 }
 
-int main()
-{
-  std::vector<int> input(1000000);
-  std::iota(input.begin(), input.end(), 1);
-  std::shuffle(input.begin(), input.end(), std::mt19937{ std::random_device{}() });
-
-  auto s = 12345;
-
-  auto pairs = CountPair(input, s);
-
-  return 0;
-}
 ~~~
 
 ## The END!
