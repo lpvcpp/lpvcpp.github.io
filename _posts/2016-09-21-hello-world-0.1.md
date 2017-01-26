@@ -1,6 +1,6 @@
 ---
 title: "Hello world 0.1"
-author: giangnh
+author: lvpcpp
 description: ""
 ---
 
@@ -30,11 +30,11 @@ impl Display for Me {
 }
 fn main() {
     let introduction = Me {
-        name: "Giang Nguyen".to_string(),
-        know_as: "giangpi".to_string(),
+        name: "Le Phong Vu".to_string(),
+        know_as: "lpvcpp".to_string(),
         likes: vec!["music".to_string(), "travel".to_string(), "code".to_string()],
         location: "Ho Chi Minh".to_string(),
-        link: "https://hngiang.github.io".to_string(),
+        link: "https://lpvcpp.github.io".to_string(),
         relationship: true,
     };
 
