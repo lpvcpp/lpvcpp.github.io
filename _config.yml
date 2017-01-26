@@ -16,7 +16,7 @@ baseurl: /
 domain_name: 'https://lpvcpp.github.io'
 google_analytics: 'UA-84558526-1'
 disqus: true 
-disqus_shortname: 'lpvcpp'
+disqus_shortname: 'lpvcpp-github-io'
 github_username: 'lpvcpp'
 
 # Details for the RSS feed generator
