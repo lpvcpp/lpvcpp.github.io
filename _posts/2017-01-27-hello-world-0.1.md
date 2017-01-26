@@ -2,7 +2,7 @@
 title: "Hello Github Page 1.0"
 author: lvpcpp
 description: "First post"
-
+name: XXXXX
 
 ---
 
