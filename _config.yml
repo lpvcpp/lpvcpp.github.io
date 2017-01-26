@@ -1,5 +1,5 @@
-name: Le Phong Vu
-description: unknown
+name: Le Phong Vu - Blog
+description: A place to write something!
 meta_description: "This is first line of description.
 This is the second line.
 Third line...
@@ -17,7 +17,7 @@ domain_name: 'https://lpvcpp.github.io'
 google_analytics: 'UA-84558526-1'
 disqus: true 
 disqus_shortname: 'lpvcpp-github-io'
-github_username: 'lpvcpp'
+github_username: 'lpvcpp/lpvcpp.github.io'
 
 # Details for the RSS feed generator
 url:            'https://lpvcpp.github.io'
