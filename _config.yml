@@ -1,7 +1,9 @@
-name: Giang Nguyen 
-description: The sound of silence 
-meta_description: "Hello darkness, my old friend
-I've come to talk with you again"
+name: Le Phong Vu
+description: unknown
+meta_description: "This is first line of description.
+This is the second line.
+Third line...
+Over"
 
 aboutPage: true
 
@@ -11,16 +13,16 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 20
 baseurl: /
-domain_name: 'https://www.giangnh.me'
+domain_name: 'https://lpvcpp.github.io
 google_analytics: 'UA-84558526-1'
 disqus: true 
-disqus_shortname: 'giangnh'
-github_username: 'hngiang'
+disqus_shortname: 'lpvcpp'
+github_username: 'lpvcpp'
 
 # Details for the RSS feed generator
-url:            'https://www.giangnh.me'
-author:         'Giang Nguyen'
-authorTwitter:  '747f1c'
+url:            'https://lpvcpp.github.io'
+author:         'lpvcpp'
+authorTwitter:  'motsach_theky'
 
 permalink:       /:year/:title/
 
