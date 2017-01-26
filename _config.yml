@@ -1,6 +1,7 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Giang Nguyen 
+description: The sound of silence 
+meta_description: "Hello darkness, my old friend
+I've come to talk with you again"
 
 aboutPage: true
 
@@ -10,15 +11,16 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+domain_name: 'https://www.giangnh.me'
+google_analytics: 'UA-84558526-1'
+disqus: true 
+disqus_shortname: 'giangnh'
+github_username: 'hngiang'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://www.giangnh.me'
+author:         'Giang Nguyen'
+authorTwitter:  '747f1c'
 
 permalink:       /:year/:title/
 
