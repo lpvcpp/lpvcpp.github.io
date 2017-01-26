@@ -21,7 +21,7 @@ github_username: 'lpvcpp/lpvcpp.github.io'
 
 # Details for the RSS feed generator
 url:            'https://lpvcpp.github.io'
-author:         'lpvcpp111'
+author:         'Le Phong Vu'
 authorTwitter:  'motsach_theky'
 
 permalink:       /:year/:title/
